@@ -13,15 +13,7 @@ body{
 
     height: 100vh;
 
-    background-image: url(../images/praia-3.jpeg);
-
-    background-size: cover;
-
-    background-repeat: no-repeat; /* Evita que a imagem se repita */
-    
-    background-position: center center; /* Centraliza a imagem */
-
-    background-position: 25% top;
+    background-color: #404040;
 
     display: flex;
   
@@ -38,8 +30,8 @@ header{
     display: block;
     justify-content: center;
     align-items: center;
-    background-color: #87CEEB;
-    border-radius: 20px;
+    background-color: #404040;
+    border-radius: 10px;
 
     /*
     2. Azul Claro
@@ -53,17 +45,17 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;
-    background-color: #4169E1;
+    border-radius: 10px;
+    background-color: #404040;
     
     /*
-        . Azul Royal
+        . Azul Royal #808080
         <div style="width: 100px; height: 50px; background-color: #4169E1;
         border: 1px solid #000;"></div> **Hexadecimal:** `#4169E1`
     */
 
     gap: 10px;
-    border: #4169E1 10px solid;
+    border: #404040 10px solid;
 }
 
 div{
@@ -190,17 +182,17 @@ ul.regioes-atendidas{
 /* Estiliza a barra de rolagem */
 ul.regioes-atendidas::-webkit-scrollbar {
     width: 10px; /* Largura da barra de rolagem */
-    border-radius: 20px; /* Aplicação do border-radius na barra de rolagem */
+    border-radius: 10px; /* Aplicação do border-radius na barra de rolagem */
 }
 
 ul.regioes-atendidas::-webkit-scrollbar-track {
     background: #FFFFFF; /* Cor de fundo da trilha da barra de rolagem */
-    border-radius: 20px; /* Aplicação do border-radius na trilha da barra de rolagem */
+    border-radius: 10px; /* Aplicação do border-radius na trilha da barra de rolagem */
 }
 
 ul.regioes-atendidas::-webkit-scrollbar-thumb {
     background:  #FFFFFF; /* Cor da parte deslizante da barra de rolagem */
-    border-radius: 20px; /* Aplicação do border-radius na parte deslizante */
+    border-radius: 10px; /* Aplicação do border-radius na parte deslizante */
 }
 
 ul.regioes-atendidas::-webkit-scrollbar-thumb:hover {

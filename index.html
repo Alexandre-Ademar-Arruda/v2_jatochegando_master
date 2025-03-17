@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Caminhão de mudança e fretes. Carretos rápidos, seguros e com preço justo. Orçamento online grátis!">
-    <meta name="Keywords" content="Caminhão de Mudança, caminhao para mudança, caminhão mudança, caminhão de frete, mudanças caminhão, preço caminhão de mudança, caminhão mudanças, caminhão frete pequeno, caminhão bau mudança, carreto, fretes e mudanças, carreto pequeno, carreto de mudança, carreto e mudanças, carreto perto de mim, caminhão de frete, carretos e fretes, frete mudanças, carretos pequenos,
-    frete carreto, carreto de mudanca, frete pequenas mudanças, carreto rapido, mudancas caminhao">
+    <!-- <meta name="description" content="Caminhão de mudança e fretes. Carretos rápidos, seguros e com preço justo. Orçamento online grátis!">-->
+    <meta name="description" content="Precisa de um caminhão de mudança rápido e seguro? Faça seu orçamento online grátis! Carretos e fretes com preço justo e agilidade.">
+    <meta name="Keywords" content="caminhão de mudança, carretos, fretes e mudanças, transportadora, mudança segura, orçamento frete, caminhão para frete, carreto rápido">
+
     <title>Caminhão de Mudança</title>
     <link rel="stylesheet" href="./css/style.css">
         <!-- Google tag (gtag.js) -->
@@ -26,35 +27,54 @@
             'currency': 'BRL'
         });
     </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "MovingCompany",
+            "name": "Já Tô Chegando Transportes",
+            "url": "https://alexandre-ademar-arruda.github.io/v2_jatochegando_master/",
+            "logo": "https://alexandre-ademar-arruda.github.io/v2_jatochegando_master/images/jatochegando_ia_resized_v2.jpg",
+            "description": "Mudanças rápidas e seguras em Franco da Rocha e região. Caminhão de mudança com preço justo. Faça seu orçamento online grátis!",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Franco da Rocha",
+                "addressLocality": "Franco da Rocha",
+                "addressRegion": "SP",
+                "postalCode": "00000-000",
+                "addressCountry": "BR"
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+55 11 99542-4085",
+                "contactType": "customer service",
+                "areaServed": "Franco da Rocha, Caieiras, Francisco Morato e região",
+                "availableLanguage": ["Portuguese"]
+            }
+        }
+        </script>
+        
   
 </head>
 <body>
     <header>
         <nav class="container">          
-            <a href="https://api.whatsapp.com/send?phone=5511995424085&text=ola!%0AAgilize%20seu%20or%C3%A7amento,%20por%20gentileza,%20me%20envie:%0AEndere%C3%A7os%0A-Origem%0A-Destino%0ALista%20da%20coisas%20pra%20eu%20ver%20quantos%20ajudantes%20e%20qual%20caminh%C3%A3o%20precisa.%0AAguardo%20seu%20retorno%20muito%20obrigado%0A%0A">  
-                <!-- <img src="./images/jatochegandoNovoLogoTransparente.jpg" alt="logo da transportadora" class="logo-jtchgnd">-->
-                <img src="./images/jatochegando_ia_resized_v2.jpg" alt="logo da transportadora" class="logo-jtchgnd">
+            <a href="https://api.whatsapp.com/send?phone=5511995424085&text=ola!%0AAgilize%20seu%20or%C3%A7amento,%20por%20gentileza,%20me%20envie:%0AEndere%C3%A7os%0A-Origem%0A-Destino%0ALista%20da%20coisas%20pra%20eu%20ver%20quantos%20ajudantes%20e%20qual%20caminh%C3%A3o%20precisa.%0AAguardo%20seu%20retorno%20muito%20obrigado%0A%0A">
+                <img src="./images/jatochegando_ia_resized_v2.jpg" alt="Logo da Transportadora Já Tô Chegando - Fretes e Mudanças Rápidas" class="logo-jtchgnd">
             </a>
 
             <h1 class="principal">
-                <strong>Caminhão de Mudança</strong>
+                <strong>Fretes e Carretos</strong>
             </h1>
-            
-            <!--
-                <a href="https://api.whatsapp.com/send?phone=5511995424085&text=ola!%0AAgilize%20seu%20or%C3%A7amento,%20por%20gentileza,%20me%20envie:%0AEndere%C3%A7os%0A-Origem%0A-Destino%0ALista%20da%20coisas%20pra%20eu%20ver%20quantos%20ajudantes%20e%20qual%20caminh%C3%A3o%20precisa.%0AAguardo%20seu%20retorno%20muito%20obrigado%0A%0A">
-                    <img src="./images/orcamento_whats.jpg" alt="logo do whats app " class="logo-whats">
-                </a>          
-            -->
 
-            <a href="https://api.whatsapp.com/send?phone=5511995424085&text=ola!%0AAgilize%20seu%20or%C3%A7amento,%20por%20gentileza,%20me%20envie:%0AEndere%C3%A7os%0A-Origem%0A-Destino%0ALista%20da%20coisas%20pra%20eu%20ver%20quantos%20ajudantes%20e%20qual%20caminh%C3%A3o%20precisa.%0AAguardo%20seu%20retorno%20muito%20obrigado%0A%0A"
-                onclick="gtag('event', 'click', { 'event_category': 'WhatsApp', 'event_label': 'Orçamento pelo WhatsApp' });">
-                <img src="./images/orcamento_whats.jpg" alt="logo do WhatsApp" class="logo-whats">
+            <a href="https://wa.me/5511995424085?text=Olá! Gostaria de um orçamento para minha mudança.">
+                <img src="./images/orcamento_whats.jpg" alt="Solicitar orçamento pelo WhatsApp" class="logo-whats">
             </a>
+            
 
 
             <h2 class="principal">
                 <a href="">
-                    <strong>fretes e mudanças</strong>
+                    <strong>Carretos e mudanças</strong>
                 </a>
             </h2>        
         </nav>
